@@ -13,6 +13,9 @@ inputs:
   image_tag:
     description: 'Docker Image Tag'
     required: true
+  image_tag2:
+    description: 'Second Docker Image Tag'
+    required: false
 runs:
   using: 'docker'
   image: 'Dockerfile'
